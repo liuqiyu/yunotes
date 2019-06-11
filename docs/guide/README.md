@@ -2,6 +2,10 @@
 
 `Aspire Frontend`是一个后台前端解决方案，它基于 `vue` 和 `element-ui` 实现。
 
+## 小图标
+
+[![GitHub stars](https://img.shields.io/github/stars/liuqiyu/yunotes.svg?style=social)](https://github.com/liuqiyu/yunotes)
+
 ## 功能
 
 ```
