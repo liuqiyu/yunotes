@@ -15,26 +15,31 @@ module.exports = {
         nav: [
             { text: '主页', link: '/' },
             { text: '指南', link: '/guide/' },
-            {
-                text: '语言',
-                items: [
-                    { text: '中文', link: '/language/chinese/' },
-                    { text: 'English', link: '/language/english/' }
-                ]
-            },
+            // {
+            //     text: '语言',
+            //     items: [
+            //         { text: '中文', link: '/language/chinese/' },
+            //         { text: 'English', link: '/language/english/' }
+            //     ]
+            // },
             { text: 'GitHub', link: 'https://github.com/aspire-coding/aspire-docs' }
         ],
-        // sidebar: {
-        //     '/guide/' :[
-        //         ['/guide/', '介绍'],
-        //         ['/guide/standard', '开发规范'],
-        //         ['/guide/css', '公有css使用'],
-        //         ['/guide/asp-tree-select', 'AspTreeSelect 下拉树'],
-        //         '/guide/query-table'
-        //     ]
-        // }
         sidebar: [
             ['/guide/', '介绍'],
+            {
+                title: 'Vue',
+                collapsable: false,
+                children: [
+                    ['/guide/vue/introduction', '介绍']
+                ]
+            },
+            {
+                title: 'React',
+                collapsable: false,
+                children: [
+                    ['/guide/react/introduction', '介绍']
+                ]
+            },
             {
                 title: 'Git 从入门到放弃',
                 collapsable: false,
