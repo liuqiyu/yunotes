@@ -26,6 +26,7 @@ module.exports = {
         ],
         sidebar: [
             ['/guide/', '介绍'],
+            ['/guide/youth-literary-digest/article-1', '1、你不知道的Web Api'],
             {
                 title: 'Vue',
                 collapsable: false,
