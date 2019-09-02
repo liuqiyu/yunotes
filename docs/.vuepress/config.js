@@ -26,7 +26,14 @@ module.exports = {
         ],
         sidebar: [
             ['/guide/', '介绍'],
-            ['/guide/youth-literary-digest/article-1', '1、你不知道的Web Api'],
+            {
+                title: '青年文摘',
+                collapsable: false,
+                children: [
+                    ['/guide/youth-literary-digest/article-1', '1、你不知道的Web Api'],
+                    ['/guide/youth-literary-digest/article-2', '2、Javascript 和 Sass 共享变量'],
+                ]
+            },
             {
                 title: 'Vue',
                 collapsable: false,
