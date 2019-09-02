@@ -54,7 +54,8 @@ module.exports = {
                 title: 'Git 从入门到放弃',
                 collapsable: false,
                 children: [
-                    ['/guide/git/case', '实用案例']
+                    ['/guide/git/case', '实用案例'],
+                    ['/guide/git/check-commit', '使用 husky 和 lint-staged检测']
                 ]
             },
             // {
