@@ -27,7 +27,7 @@ git push -f origin master
 ## 新建仓库添加远程仓库
 
 ```bash
-1、 init git repo
+# 1、 init git repo
 git init
 
 # 2、Add all the files

@@ -17,12 +17,12 @@ cd dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -am 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:liuqiyu/yunotes.git master:gh-pages
+git push -f https://github.com/liuqiyu/yunotes.git master:gh-pages
 
 cd -

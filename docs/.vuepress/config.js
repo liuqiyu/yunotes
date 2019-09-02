@@ -30,7 +30,9 @@ module.exports = {
                 title: 'Vue',
                 collapsable: false,
                 children: [
-                    ['/guide/vue/introduction', '介绍']
+                    ['/guide/vue/introduction', '介绍'],
+                    ['/guide/vue/vue-count-to', 'VueCountTo'],
+                    ['/guide/vue/DLLPlugin', 'DLLPlugin']
                 ]
             },
             {
@@ -54,7 +56,13 @@ module.exports = {
             //         ['/guide/echarts', 'Echarts 使用教程']
             //     ]
             // }
-        ]
+        ],
+        lastUpdated: '最后更新时间', // string | boolean
+        repo: 'https://github.com/liuqiyu/yunotes',
+        repoLabel: '查看源码',
+        // editLinks: true,
+        // // 默认为 "Edit this page"
+        // editLinkText: '帮助我们改善此页面！'
     },
     markdown: {
         lineNumbers: true
