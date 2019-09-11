@@ -15,6 +15,7 @@ module.exports = {
         nav: [
             { text: '主页', link: '/' },
             { text: '指南', link: '/guide/' },
+            { text: 'Vue Admin Pro', link: '/vue-admin-pro/' },
             // {
             //     text: '语言',
             //     items: [
@@ -24,48 +25,67 @@ module.exports = {
             // },
             { text: 'GitHub', link: 'https://github.com/aspire-coding/aspire-docs' }
         ],
-        sidebar: [
-            ['/guide/', '介绍'],
-            {
-                title: '青年文摘',
-                collapsable: false,
-                children: [
-                    ['/guide/youth-literary-digest/article-1', '1、你不知道的Web Api'],
-                    ['/guide/youth-literary-digest/article-2', '2、Javascript 和 Sass 共享变量'],
-                ]
-            },
-            {
-                title: 'Vue',
-                collapsable: false,
-                children: [
-                    ['/guide/vue/introduction', '介绍'],
-                    ['/guide/vue/vue-count-to', 'VueCountTo'],
-                    ['/guide/vue/DLLPlugin', 'DLLPlugin']
-                ]
-            },
-            {
-                title: 'React',
-                collapsable: false,
-                children: [
-                    ['/guide/react/introduction', '介绍']
-                ]
-            },
-            {
-                title: 'Git 从入门到放弃',
-                collapsable: false,
-                children: [
-                    ['/guide/git/case', '实用案例'],
-                    ['/guide/git/check-commit', '使用 husky 和 lint-staged检测']
-                ]
-            },
-            // {
-            //     title: '解决方案',
-            //     collapsable: false,
-            //     children: [
-            //         ['/guide/echarts', 'Echarts 使用教程']
-            //     ]
-            // }
-        ],
+        sidebar: {
+            '/guide/': [
+                ['/guide/', '介绍'],
+                {
+                    title: '青年文摘',
+                    collapsable: false,
+                    children: [
+                        ['/guide/youth-literary-digest/article-1', '1、你不知道的Web Api'],
+                        ['/guide/youth-literary-digest/article-2', '2、Vue 脱坑 A计划'],
+                        ['/guide/youth-literary-digest/article-3', '2、Javascript 和 Sass 共享变量'],
+                    ]
+                },
+                {
+                    title: 'Vue',
+                    collapsable: false,
+                    children: [
+                        ['/guide/vue/introduction', '介绍'],
+                        ['/guide/vue/vue-count-to', 'VueCountTo'],
+                        ['/guide/vue/DLLPlugin', 'DLLPlugin']
+                    ]
+                },
+                {
+                    title: 'React',
+                    collapsable: false,
+                    children: [
+                        ['/guide/react/introduction', '介绍']
+                    ]
+                },
+                {
+                    title: 'Git 从入门到放弃',
+                    collapsable: false,
+                    children: [
+                        ['/guide/git/case', '实用案例'],
+                        ['/guide/git/check-commit', '使用 husky 和 lint-staged检测']
+                    ]
+                }
+            ],
+            '/vue-admin-pro/': [
+                {
+                    title: '基础',
+                    collapsable: false,
+                    children: [
+                        ['/vue-admin-pro/', '介绍']
+                    ]
+                },
+                {
+                    title: '进阶',
+                    collapsable: false,
+                    children: [
+                        ['/vue-admin-pro/', '介绍']
+                    ]
+                },
+                {
+                    title: '其他',
+                    collapsable: false,
+                    children: [
+                        ['/vue-admin-pro/', '介绍']
+                    ]
+                }
+            ]
+        },
         lastUpdated: '最后更新时间', // string | boolean
         repo: 'https://github.com/liuqiyu/yunotes',
         repoLabel: '查看源码',
