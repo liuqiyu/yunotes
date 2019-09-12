@@ -78,6 +78,16 @@ module.exports = {
                     ]
                 },
                 {
+                    title: '组件',
+                    collapsable: false,
+                    children: [
+                        ['/vue-admin-pro/', '介绍'],
+                        ['/vue-admin-pro/components/query-form', 'QueryForm 表单查询'],
+                        ['/vue-admin-pro/components/dialog', 'Dialog 可拖动弹窗'],
+                        ['/vue-admin-pro/components/v-tool-bar', 'ToolBar 工具按钮']
+                    ]
+                },
+                {
                     title: '其他',
                     collapsable: false,
                     children: [
