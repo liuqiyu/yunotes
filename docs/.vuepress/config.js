@@ -76,7 +76,8 @@ module.exports = {
                     children: [
                         ['/vue-admin-pro/advanced/git-hooks', 'Git Hooks'],
                         ['/vue-admin-pro/advanced/auth', '权限控制'],
-                        ['/vue-admin-pro/advanced/object-freeze', '性能优化（一）：大型列表数据']
+                        ['/vue-admin-pro/advanced/object-freeze', '性能优化（一）：大型列表数据'],
+                        ['/vue-admin-pro/advanced/mode-and-env', '环境变量和模式']
                     ]
                 },
                 {
