@@ -70,6 +70,7 @@ module.exports = {
                         ['/vue-admin-pro/', '介绍'],
                         ['/vue-admin-pro/base/manage-css', '样式'],
                         ['/vue-admin-pro/base/mock-data', 'Mock Data'],
+                        ['/vue-admin-pro/base/router-and-menu', '路由和菜单栏']
                     ]
                 },
                 {
