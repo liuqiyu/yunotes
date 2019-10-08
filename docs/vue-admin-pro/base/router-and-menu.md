@@ -6,7 +6,7 @@
 
 ## 配置项
 
-首先我们了解一些本项目配置路由时提供了哪些配置项。
+首先我们了解一些本项目配置路由时提供了哪些配置项。[@/router](https://github.com/liuqiyu/vue-admin-pro/tree/master/src/router)
 
 ### 模块根路由
 
@@ -81,6 +81,23 @@ meta: {
 // 子路由
 children: []
 
+```
+
+#### 示例：
+
+```
+{
+    path: 'page/add',
+    name: 'page-table-add',
+    hidden: true,
+    component: () =>
+        import(/* webpackChunkName: "table" */ './../views/table/page/add'),
+    meta: {
+      activeMenu: '/table/page',
+      noCache： true,
+      title: '页面-新增'
+    }
+}
 ```
 
 ## 路由
