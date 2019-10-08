@@ -72,7 +72,7 @@ module.exports = {
                         ['/vue-admin-pro/base/manage-css', '样式'],
                         ['/vue-admin-pro/base/mock-data', 'Mock Data'],
                         ['/vue-admin-pro/base/router-and-menu', '路由和菜单栏'],
-                        ['/vue-admin-pro/base/tags-view', '标签导航栏']
+                        ['/vue-admin-pro/base/tags-view', 'TagsView 标签导航栏']
                     ]
                 },
                 {
