@@ -23,7 +23,6 @@ module.exports = {
             //         { text: 'English', link: '/language/english/' }
             //     ]
             // },
-            { text: 'GitHub', link: 'https://github.com/aspire-coding/aspire-docs' }
         ],
         sidebar: {
             '/guide/': [
