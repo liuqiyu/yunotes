@@ -1,16 +1,16 @@
-使用技术：
+# YuNotes
 
- - [VuePress][1] - Vue 驱动的静态网站生成器
-
-> 仓库地址：https://github.com/aspire-coding/aspire-docs.git
-
-> 线上访问地址：https://aspire-coding.github.io/aspire-docs/
+* 仓库地址：https://github.com/liuqiyu/yunotes
+* 线上访问地址：https://liuqiyu.github.io/yunotes/
 
 
 ## 全局安装
+
 ```
 ## 安装
-yarn global add vuepress # 或者：npm install -g vuepress
+yarn global add vuepress 
+# 或者
+npm install -g vuepress
 ```
 ## 现有项目
 如果你想在一个现有项目中使用 VuePress，同时想要在该项目中管理文档，则应该将 VuePress 安装为本地依赖。
@@ -165,24 +165,28 @@ module.exports = {
 # 确保脚本抛出遇到的错误
 set -e
 
+cd docs/.vuepress
+
+rm -rf dist
+
 # 生成静态文件
-npm run docs:build
+npm run build
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+cd dist
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -am 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:aspire-coding/aspire-docs.git master:gh-pages
+git push -f https://github.com/liuqiyu/yunotes.git master:gh-pages
 
 cd -
 ```
