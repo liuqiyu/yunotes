@@ -33,7 +33,8 @@ module.exports = {
                     children: [
                         ['/guide/youth-literary-digest/article-1', '1、你不知道的Web Api'],
                         ['/guide/youth-literary-digest/article-2', '2、Vue 脱坑 A计划'],
-                        ['/guide/youth-literary-digest/article-3', '2、Javascript 和 Sass 共享变量'],
+                        ['/guide/youth-literary-digest/article-3', '3、Javascript 和 Sass 共享变量'],
+                        ['/guide/youth-literary-digest/article-4', '4、Vue 生命周期钩子自定义事件']
                     ]
                 },
                 {
