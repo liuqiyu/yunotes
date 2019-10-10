@@ -85,6 +85,7 @@ module.exports = {
                         ['/vue-admin-pro/advanced/object-freeze', '性能优化（一）：大型列表数据'],
                         ['/vue-admin-pro/advanced/mode-and-env', '环境变量和模式'],
                         ['/vue-admin-pro/advanced/deployment', '部署'],
+                        ['/vue-admin-pro/advanced/cross-domain', '跨域'],
                         ['/vue-admin-pro/advanced/babel-polyfill', '兼容IE']
                     ]
                 },
