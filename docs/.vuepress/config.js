@@ -35,7 +35,8 @@ module.exports = {
                         ['/guide/youth-literary-digest/article-2', '2、Vue 脱坑 A计划'],
                         ['/guide/youth-literary-digest/article-3', '3、Javascript 和 Sass 共享变量'],
                         ['/guide/youth-literary-digest/article-4', '4、Vue 生命周期钩子自定义事件'],
-                        ['/guide/youth-literary-digest/article-5', '5、揭秘 ES6 之 Class 用法']
+                        ['/guide/youth-literary-digest/article-5', '5、揭秘 ES6 之 Class 用法'],
+                        ['/guide/youth-literary-digest/article-6', '6、揭秘 JS 之 继承 百万财产']
                     ]
                 },
                 {
