@@ -7,9 +7,22 @@
     <title>Document</title>
   </head>
   <body>
-    <div data-a="1" data-b="2" id="div"></div>
     <script>
-      console.log(document.querySelector('#div').dataset)
+      class Point {
+        static a = 123
+        static b () {
+          alert(1)
+        }
+      }
+
+      class ColorPoint extends Point {
+
+      }
+
+
+      let cp = new ColorPoint(); // ReferenceError
+
+      console.log(cp.a)
     </script>
   </body>
 </html>
