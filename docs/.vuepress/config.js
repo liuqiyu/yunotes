@@ -46,7 +46,8 @@ module.exports = {
             ['/guide/youth-literary-digest/article-5', '5、揭秘 ES6 之 Class 用法'],
             ['/guide/youth-literary-digest/article-6', '6、揭秘 JS 之 继承 百万财产'],
             ['/guide/youth-literary-digest/article-7', '7、揭秘 JS 之 你的Promise'],
-            ['/guide/youth-literary-digest/article-8', '8、揭秘 JS 之 call、apply、bind']
+            ['/guide/youth-literary-digest/article-8', '8、揭秘 JS 之 call、apply、bind'],
+            ['/guide/youth-literary-digest/article-9', '9、快看，前端开发者都收藏了这几张图表']
           ]
         },
         {
