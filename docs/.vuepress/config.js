@@ -121,7 +121,8 @@ module.exports = {
           ['/vue-admin-pro/advanced/deployment', '部署'],
           ['/vue-admin-pro/advanced/cross-domain', '跨域'],
           ['/vue-admin-pro/advanced/babel-polyfill', '兼容IE'],
-          ['/vue-admin-pro/advanced/first-screen', '优化-首屏']
+          ['/vue-admin-pro/advanced/first-screen', '优化-首屏'],
+          ['/vue-admin-pro/advanced/webpack', 'vue-cli3 webpack配置']
         ]
       },
       {
